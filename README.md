@@ -1,10 +1,12 @@
 # utensil
 
+[![Clojars Project](https://img.shields.io/clojars/v/utensil.svg)](https://clojars.org/utensil)
+
 A set of common utilities, that are useful at the REPL.
 
 ## Usage
 
-- Add this library to your lein profiles.
+- Add this library to your lein profiles, in the `dependencies` vector.
 - Access the functions from the REPL.
 
 ## License
