@@ -1,5 +1,9 @@
 ## Changes
 
+### 0.2.0 - 26 Feb 2017
+
+- Added `shuffle`.
+
 ### 0.1.2 - 26 Feb 2017
 
 - Renamed library from `utensil` to `ether/utensil`.

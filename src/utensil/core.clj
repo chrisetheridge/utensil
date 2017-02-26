@@ -2,7 +2,8 @@
   (:require
    [clojure.java.io :as io])
   (:import
-   [java.io File]))
+   [java.io File])
+  (:refer-clojure :exclude [suffle]))
 
 
 (def all-files #(file-seq (io/file %)))
@@ -49,3 +50,13 @@
   [& args]
   (clojure.pprint/pprint args)
   args)
+
+
+(defn shuffle
+  "Same as `clojure.core/shuffle` but ensures that the
+  resulting `coll` !== the inputted `coll`."
+  [coll]
+  (let [coll' (clojure.core/shuffle coll)]
+    (if (= coll' coll)
+      (recur coll)
+      coll')))
