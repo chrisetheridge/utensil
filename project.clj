@@ -1,4 +1,4 @@
-(defproject utensil "0.0.1"
+(defproject utensil "0.1.1"
   :description "Common utilities for the REPL."
   :url "http://github.com/chris-etheridge/utensil"
   :license {:name "Eclipse Public License"
