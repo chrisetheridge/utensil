@@ -1,6 +1,6 @@
 # utensil
 
-[![Clojars Project](https://img.shields.io/clojars/v/utensil.svg)](https://clojars.org/utensil)
+[![Clojars Project](https://img.shields.io/clojars/v/ether/utensil.svg)](https://clojars.org/ether/utensil)
 
 ![Utensil icon](/resources/gh/icon.png?raw=true)
 
