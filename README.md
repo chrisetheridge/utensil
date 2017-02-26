@@ -2,6 +2,8 @@
 
 [![Clojars Project](https://img.shields.io/clojars/v/utensil.svg)](https://clojars.org/utensil)
 
+![Alt text](/resources/gh/icon.png?raw=true)
+
 A set of common utilities, that are useful at the REPL.
 
 ## Usage
