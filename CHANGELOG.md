@@ -1,6 +1,6 @@
 ## Changes
 
-### 0.2.1 - 26 Feb 2017
+### 0.2.1 - 27 Feb 2017
 
 [BREAKING]
 - Changed the arguments order for `files-with` and `files-of`.
