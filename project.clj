@@ -1,4 +1,4 @@
-(defproject ether/utensil "0.2.0"
+(defproject ether/utensil "0.2.1"
   :description "Common utilities for the REPL."
 
   :url "http://github.com/chris-etheridge/utensil"

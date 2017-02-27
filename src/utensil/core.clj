@@ -14,8 +14,8 @@
    regex provided.
 
    Example:
-   `(files-with \"/resources/templates/\" #\"application/js\")`"
-  [path re]
+   `(files-with  #\"application/js\" \"/resources/templates/\")`"
+  [re path]
   (when-let [fs (all-files path)]
     (for [f fs
           :when (.isFile f)
@@ -29,8 +29,8 @@
    Predicate must take file as the first argument.
 
    Example:
-   `(files-of \"/resources/public/css/\" #(re-find #\".scss\" (.getName %))`"
-  [path pred]
+   `(files-of  #(re-find #\".scss\" (.getName %) \"/resources/public/css/\")`"
+  [pred path]
   (when-let [fs (all-files path)]
     (for [f fs
           :when (pred f)]
